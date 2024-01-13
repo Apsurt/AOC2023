@@ -13,8 +13,8 @@ def get_year_from_date():
     datetime_object = datetime.datetime.now()
     return datetime_object.year
 
-config = {"day": get_day_from_date(), "year": get_year_from_date()}
-config = {"day": 18, "year": 2023}
+#config = {"day": get_day_from_date(), "year": get_year_from_date()}
+config = {"day": 19, "year": 2023}
 
 def upload(answer):
     web = WebEngine(config)
